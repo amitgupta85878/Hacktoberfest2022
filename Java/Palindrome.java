@@ -4,7 +4,7 @@ public class Palindrome {
       int rem;
       int ans = 0;
       while(n>0){
-        rem = n%10;
+        rem = n%10;// it gives the last digit
         ans = ans*10+rem;
         n=n/10;
       }
