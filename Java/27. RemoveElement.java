@@ -8,7 +8,7 @@ class Solution {
     
     
     public int removeElement(int[] nums, int val) {
-        int len=nums.length;
+        int len=nums.length;// used for find the length
         
         for(int i=0 ; i < len ; i++){
             if(nums[i]==val){
