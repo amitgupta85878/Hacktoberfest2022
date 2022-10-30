@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+ int main()
+ {int age ;
+ cout<<"enter the agee ";
+ cin>>age;
+ 
+ switch(age)
+ {case 18:
+     cout<<"your age is 18";
+     break;
+     case 51:
+     cout<<"your age is 5";
+     break;
+	 default:
+	 cout<<" you are niether 18 nor 5";}
+     return 0;
+ }
